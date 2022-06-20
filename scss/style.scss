@@ -1,0 +1,39 @@
+@import "header";
+@import "aboutUs";
+@import "galeria";
+@import "clients";
+@import "outTeam";
+@import "footer";
+@import "media";
+@import "media500";
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  @font-face {
+    font-family: Rale;
+    src: url(Fuentes/Raleway-Regular.ttf);
+  }
+  body{
+    font-family: Rale ;
+    .contenedor{
+        padding: 60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto; 
+        overflow: hidden;
+    }
+    
+    .titulo{
+        color: #15133C; 
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    
+    } 
+  } 
