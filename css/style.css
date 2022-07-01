@@ -1,4 +1,4 @@
-header {
+body {
   width: 100%;
   height: 600px;
   background: #BA8B02;
@@ -77,6 +77,13 @@ header .wave {
   width: 100%;
 }
 
+main .acerca {
+  background-color: #f6f664;
+  width: auto;
+  height: 100%;
+  padding: 100px;
+}
+
 main .sobre-nosotros {
   padding: 30px 0 60px 0;
 }
@@ -98,12 +105,16 @@ main .imagen-about-us {
   width: 40%;
 }
 
-main .contenido-texto h3 {
-  margin-bottom: 15px;
+main .contenido-texto {
+  padding: 15px;
 }
 
-main .contenido-texto h3 span {
-  background: #4d0686;
+main h3 {
+  margin-bottom: 20px;
+}
+
+main h3 span {
+  background: #690ab7;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -116,15 +127,10 @@ main .contenido-texto h3 span {
   margin-right: 5px;
 }
 
-main .contenido-texto h3 p {
+main h3 p {
   padding: 0px 0px 30px 15px;
   font-weight: 300;
   text-align: justify;
-}
-
-.contenedor-portafolio {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 .galeria-port {
@@ -197,6 +203,12 @@ main .contenido-texto h3 p {
           transform: scale(1);
 }
 
+.carousel {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(23, 23, 23, 0.633)), to(rgba(187, 141, 2, 0.557))), url(../img/Fondo.jpeg);
+  background: linear-gradient(to right, rgba(23, 23, 23, 0.633), rgba(187, 141, 2, 0.557)), url(../img/Fondo.jpeg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,8 +257,7 @@ main .contenido-texto h3 p {
 }
 
 .about-services {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-color: rgba(0, 0, 255, 0.33);
   padding-bottom: 30px;
 }
 
@@ -273,11 +284,13 @@ main .contenido-texto h3 p {
 
 .servicio-ind h3 {
   margin: 10px 0;
+  color: black;
 }
 
 .servicio-ind p {
   font-weight: 300;
   text-align: justify;
+  color: #ececec;
 }
 
 footer {

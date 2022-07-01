@@ -12,13 +12,18 @@
     <meta name="keywords"  content="CORTE, PELO, ESTILO, PELUQUERIA, BARBERIA, NAVAJA">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Animacion-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>StudioJuanVig Acerca de nosotros</title>
 </head>
 
 <body>
     <header>
         <!--Inicia menú-->
-       
         <nav class="navbar navbar-expand-lg bg-primary ">
             <div class="container-fluid">
               <a class="navbar-brand" href="Inicio.html">StudioJuanVig</a>
@@ -46,23 +51,38 @@
               </div>
             </div>
           </nav>
-
         <!--Cierra menú-->
         <section class="textos-header">
-            <h1>Studio Juan Vig</h1>
-            <h2>Barbero Profesional</h2>
+            <h1 class="animate__heartBeat">Studio Juan Vig</h1>
+            <h2 class="animate__heartBeat">Barbero Profesional</h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M-30.76,20.23 C348.47,155.44 336.62,32.08 505.92,10.38 L500.00,150.00 L-53.89,193.92 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
     </header>
     <main>
         <section class="contenedor">
+          <div class="acerca">
             <h2 class="titulo" id="acerca-de">Acerca De</h2>
             <div class="contenedor-sobre-nosotros">
-                <img src="img/Ilustracion 3.png" alt="" class="imagen-about-us">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/ilustracion10.jpeg" class="d-block w-100" alt="ilustracion10">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Ilustracion 1.png" class="d-block w-100" alt="Ilustracion1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Ilustracion 2.png" class="d-block w-100" alt="Ilustracion2">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
                 <div class="contenido-texto">
                     <h3><span>1</span>Como empezamos</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi doloremque quo corporis ab optio
@@ -74,110 +94,7 @@
                         eos dolorem explicabo.</p>
                 </div>
             </div>
-        </section>
-        <section class="contenedor">
-            <div class="contenedor-portafolio">
-                <h2 class="titulo" id="portafolio">Galeria</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 1.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 2.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 3.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 4.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 5.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 6.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 7.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Ilustracion 8.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono.png" alt="">
-                            <p>Nuestro Trabajo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contenedor">
-            <h2 class="titulo" id="servicios">Que dicen nuestros clientes</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/face 1.png" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, voluptatem.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/face 2.png" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, voluptatem.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
-                <div class="servicios-cont">
-                    <div class="servicio-ind">
-                        <img src="img/Ilustracion 5.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/Ilustracion 6.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/Ilustracion 1.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto!</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </section>
     </main>
     <footer>

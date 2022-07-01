@@ -1,7 +1,8 @@
 .about-services{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);   
+   background-color: rgba(0, 0, 255, 0.33);
     padding-bottom: 30px;
 }
+
 
 .servicios-cont{
     display: flex; 
@@ -17,9 +18,11 @@
     }
     h3{
         margin: 10px 0;
+        color: black;
     }
     p{
         font-weight: 300;
         text-align: justify;
+        color: rgb(236, 236, 236);
     } 
 }

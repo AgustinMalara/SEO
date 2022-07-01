@@ -1,6 +1,4 @@
-.contenedor-portafolio{
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-}
+
 .galeria-port{
     /*display: flex;
     justify-content: space-evenly;
@@ -47,3 +45,6 @@
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
 } 
+.carousel{
+    background: linear-gradient(to right, hsla(0, 0%, 9%, 0.633), hsla(45, 98%, 37%, 0.557)), url(../img/Fondo.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

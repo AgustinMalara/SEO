@@ -1,0 +1,22 @@
+@media (min-width: 700px){
+    body{
+        padding: 0 4rem;
+    }
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        *{
+            padding: 2em;
+        }
+    }
+    .contact-info{
+        h4{
+            ul{
+                p{
+                    padding: 1em;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

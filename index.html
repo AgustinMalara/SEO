@@ -11,7 +11,13 @@
     <link rel="shortcut icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/Bootstrap.css">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+<!--Animacion-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>StudioJuanVig Barberia Profesional</title>
 </head>
 
@@ -49,22 +55,18 @@
 
         <!--Cierra menú-->
         <section class="textos-header">
-            <h1>Studio Juan Vig</h1>
-            <h2>Barbero Profesional</h2>
+            <h1 class="animate__heartBeat">Studio Juan Vig</h1>
+            <h2 class="animate__heartBeat">Barbero Profesional</h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M-30.76,20.23 C348.47,155.44 336.62,32.08 505.92,10.38 L500.00,150.00 L-53.89,193.92 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
     </header>
     <main>
-        <section class="contenedor">
+        <div data-aos="flip-right">
+            <section class="contenedor">
             <h2 class="titulo" id="acerca-de">Acerca De</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/Ilustracion 3.png" alt="" class="imagen-about-us">
                 <div class="contenido-texto">
-                    <h3><span>1</span>Como empezamos</h3>
+                     <h3><span>1</span>Como empezamos</h3>
                     <p><strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi doloremque quo corporis ab optio
                         totam commodi quidem voluptatibus at exercitationem facilis ratione vel nesciunt esse, animi
                         assumenda alias, expedita tenetur!</strong></p>
@@ -75,7 +77,11 @@
                 </div>
             </div>
         </section>
-        <section class="contenedor">
+    </div>
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+    <section class="contenedor">
             <div class="contenedor-portafolio">
                 <h2 class="titulo" id="portafolio">Galeria</h2>
                 <div class="galeria-port">
@@ -138,6 +144,7 @@
                 </div>
             </div>
         </section>
+    </div>
         <section class="contenedor">
             <h2 class="titulo" id="servicios">Que dicen nuestros clientes</h2>
             <div class="cards">
@@ -190,10 +197,6 @@
                 <h4>Instagram</h4>
                 <p>15185518515</p>
             </div>
-            <!--<div class="cont-foo">
-                <h4>Twitter</h4>
-                <p>15185518515</p>
-            </div>-->
             <div class="cont-foo">
                 <h4>Email</h4>
                 <p>15185518515</p>
@@ -204,7 +207,12 @@
 
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+<!--Js de animacion-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
